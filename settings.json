@@ -1,0 +1,38 @@
+{
+  "editor.tabSize": 2,
+  "editor.renderWhitespace": "boundary",
+  "editor.rulers": [
+    80
+  ],
+  "editor.minimap.enabled": false,
+  "telemetry.enableTelemetry": false,
+  "[javascript]": {
+    "editor.tabSize": 2 // default: 4
+  },
+  "emmet.includeLanguages": {
+    "erb": "html"
+  },
+  "emmet.triggerExpansionOnTab": true,
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "vue"
+  ],
+  "editor.formatOnSave": true,
+  "eslint.autoFixOnSave": true,
+  "vetur.format.defaultFormatter.js": "prettier",
+  // Validate vue-html in <template> using esling-plugin-vue
+  "vetur.validation.template": true,
+  "eslint.packageManager": "yarn",
+  "eslint.run": "onSave",
+  "[vue]": {},
+  "files.exclude": {
+    "**/node_modules": true,
+    "**/yarn.lock": true
+  },
+  "window.newWindowDimensions": "maximized",
+  "keyboard.touchbar.enabled": false,
+  "html.format.indentInnerHtml": true
+}
